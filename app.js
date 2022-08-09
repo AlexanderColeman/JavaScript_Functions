@@ -53,11 +53,11 @@ function Quadrant(x, y) {
   } else if (x > 0 && y > 0) {
     console.log(`(${x},${y}) is in quadrant 1`);
   } else if (x > 0 && y < 0) {
-    console.log(`(${x},${y}) is in quadrant 2`);
+    console.log(`(${x},${y}) is in quadrant 4`);
   } else if (x < 0 && y < 0) {
     console.log(`(${x},${y}) is in quadrant 3`);
   } else if (x < 0 && y > 0) {
-    console.log(`(${x},${y}) is in quadrant 4`);
+    console.log(`(${x},${y}) is in quadrant 2`);
   }
 }
 
